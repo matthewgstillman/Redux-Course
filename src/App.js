@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Provider, store } from "react-redux";
+import { Provider } from "react-redux";
 import Posts from "./components/Posts";
 import PostForm from "./components/PostForm";
 
