@@ -61,8 +61,4 @@ class PostForm extends Component {
   }
 }
 
-PostForm.propTypes = {
-  createPost: PropTypes.func.isRequired,
-};
-
 export default PostForm;
