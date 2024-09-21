@@ -35,4 +35,4 @@ const mapStateToProps = (state) => ({
   newPost: state.posts.item,
 });
 
-export default connect(null, { fetchPosts })(Posts);
+export default connect(mapStateToProps, { fetchPosts })(Posts);
